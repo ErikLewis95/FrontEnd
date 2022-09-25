@@ -1,0 +1,22 @@
+#container {
+    display: grid;
+    border: 1px solid #000;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+  .blueItem {
+    padding: 10px;
+    background-color: lightblue;
+    grid-column: 1;
+  }
+  .redItem {
+    padding: 10px;
+    background-color: lightcoral;
+    grid-column: 2;
+  }
+  .greenItem {
+    padding: 10px;
+    background-color: lightgreen;
+    grid-column: 3;
+  }

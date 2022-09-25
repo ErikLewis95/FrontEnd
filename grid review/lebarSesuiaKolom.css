@@ -1,0 +1,11 @@
+#container {
+    display: grid;
+    border: 1px solid #000;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .redItem {
+    padding: 10px;
+    background-color: lightcoral;
+  }
