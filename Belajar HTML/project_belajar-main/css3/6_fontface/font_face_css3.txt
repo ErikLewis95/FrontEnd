@@ -1,0 +1,20 @@
+
+-> digunakan untuk mengelola font pada CSS3
+cara menggunakan {
+    - dengan tag link di dalam tag head html
+    - dengan @import pada css
+}
+
+sintaks lengkap {
+    @font-face {
+        font-family: 'namaFontBaru';
+        src: url('lokasi/file/namaFontBaru.eot');
+        src: url('lokasi/file/namaFontBaru.eot#iefix') format('embedded-opentype'),
+        src: url('lokasi/file/namaFontBaru.woff2') format('woff2'),
+        src: url('lokasi/file/namaFontBaru.woff') format('woff'),
+        src: url('lokasi/file/namaFontBaru.ttf') format('truetype'),
+        src: url('lokasi/file/namaFontBaru.svg#svgFontName') format('svg');
+    }
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

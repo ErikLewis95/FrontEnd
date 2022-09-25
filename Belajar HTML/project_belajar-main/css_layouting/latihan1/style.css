@@ -1,0 +1,31 @@
+/* belajar mengenai display css */
+body {
+    font-family: arial;
+}
+
+.navigation li {
+    background-color: pink;
+    display: inline;
+}
+
+.main {
+    background-color: lightblue;
+    width: 500px;
+}
+
+.main h3{
+    background-color: pink;
+}
+
+.main span {
+    background-color: red;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.copyright p {
+    background-color: pink;
+}

@@ -1,0 +1,17 @@
+
+background-color (mengatur warna pada background)
+
+background-image (mengatur gambar yang akan digunakan pada background)
+
+background-position (mengatur posisi gambar pada background)
+
+background-repeat (mengatur jenis pengulangan pada background)
+
+~ CSS background shorthand (urutan color dengan url bisa di tukar)
+body {
+    background: color url() position repeat;
+contoh =
+    background: olive url(img/bg2.png) top center repeat;
+}
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

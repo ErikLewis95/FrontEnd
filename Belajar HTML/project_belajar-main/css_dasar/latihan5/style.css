@@ -1,0 +1,37 @@
+/* belajar mengenai selector css */
+body {
+    font-family: arial;
+}
+
+h1, h2 {
+    color: olive;
+}
+
+ul li a {
+    color: gold;
+}
+
+ol li a {
+    color: silver;
+}
+
+#p1 {
+    color: gold;
+}
+
+.p2 {
+    color: silver;
+}
+
+.cetak-tebal{
+    font-weight: bold;
+}
+
+p.cetak-tebal{
+    font-size: 22px;
+}
+
+a.cetak-tebal{
+    font-size: 25px;
+    text-decoration: none;
+}

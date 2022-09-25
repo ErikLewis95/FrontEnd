@@ -1,0 +1,34 @@
+
+font-family (mengatur jenis font yang akan digunakan)
+{
+    - Font serif font yang memliki kaki, font ini dianggap sebagai font yang paling formal serta memiliki kesan klasik dan professional.
+    Contoh font serif ini antara lain adalah Times New Roman, Ventura, Rockwell, Palatino, Garamond, dan Constantia.
+
+    - Font sans-serif font yang tidak memiliki kaki, font jenis ini memiliki karakter yang tegas dan bersifat solid. Ketebalan dari font Sans Serif ini juga konsisten, font ini terlihat minimalis serta memiliki kesan modern, bersahabat dan fleksibel.
+    Contoh font Sans Serif ini antara lain adalah Helvetica, Roboto, Oswald, Lato, Impact, dan Open Sans.
+}
+
+font-size (mengatur ukuran font)
+
+font-weight (mengatur ketebalan font)
+
+font-variant (mengatur font menjadi small caps)
+
+font-style (mengubah font menjadi bercetak miring)
+
+line-height (mengatur spasi antar baris)
+
+~ CSS font shorthand (syarat urutan harus sesuai)
+body {
+                        optional optional
+                          ↥         ↥
+                    font-weight line-height
+                          ↥         ↥
+    font: italic normal bold 16px/18px helvetica,arial, sans-serif;
+            ↧       ↧          ↧              ↧
+    font-style font-variant font-size     font-family
+            ↧       ↧          ↧              ↧
+        optional optional   wajib          wajib
+}
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

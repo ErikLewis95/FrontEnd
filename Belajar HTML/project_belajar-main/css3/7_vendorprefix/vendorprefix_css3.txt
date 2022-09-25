@@ -1,0 +1,10 @@
+
+-> digunakan agar sintaks CSS3 yang kita buat jadi compatible di semua browser.
+(awalan) {
+    -webkit-<properti-css3>
+    -ms-<properti-css3>
+    -moz-<properti-css3>
+    -o-<properti-css3>
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

@@ -1,0 +1,10 @@
+/* belajar mengenai specificity css */
+body {
+    font-family: arial;
+}
+
+/* warna p/paragraf akan berubah jadi goldenrod karena berat/specificity nya lebih besar */ .paragraf { color: goldenrod; } /* ( 0,1,0 ) */
+/* ❌ */ p { color: pink; } /* ( 0,0,1 ) */
+
+ul#sarapan li { color: red; }
+ul#sarapan li.favorit { color: green; }

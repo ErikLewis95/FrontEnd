@@ -1,0 +1,17 @@
+
+inheritance (pewarisan)
+    -> sebuah elemen mewarisi beberapa nilai dari properti yang dimiliki parent nya.
+    - properti yang diwariskan {
+        color
+        font
+        letter-spacing
+        line-height
+        list-style
+        text-align
+        text-indent
+        text-transform
+        visibility
+        white-space
+    }
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

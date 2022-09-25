@@ -1,0 +1,16 @@
+
+-> properti ini digunakan untuk mengatur transparansi sebuah elemen.
+value-nya: 0-1 {
+    opacity: 0.5;
+    // value-nya = 50%
+}
+
+-> rgba digunakan untuk mengatur transparansi warna
+rgba (red, green, blue, alpha) {
+    background-color: rgba(20,30,40,0.5);
+    // alpha (0.5) =/ transparansi
+}
+
+hsla (hue, saturation, lightness, alpha) -> mirip seperti rgba
+
+<!-- Source : Web Programming Unpas CSS3 -->

@@ -1,0 +1,14 @@
+
+selector { property: value; } --> syntax untuk mendeklarasikan css
+contoh = 
+    h1 { color: blue; } --> seluruh tulisan h1 pada halaman berubah warnanya menjadi biru
+    
+    penulisan untuk property yang lebih dari 1
+    h1 {
+        font-family: "Courier New";
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+    }
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

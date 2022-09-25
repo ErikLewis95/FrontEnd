@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index CSS</title>
+    <style>
+        /* belajar mengenai z-index */
+        body {
+            height: 2000px;
+        }
+
+        .satu {
+            position: absolute;
+            top: 250px;
+            left: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+        }
+
+        .dua {
+            position: absolute;
+            top: 400px;
+            left: 20px;
+            width: 200px;
+            height: 200px;
+            background-color: goldenrod;
+            z-index: 1;
+        }
+
+        .tiga {
+            position: absolute;
+            top: 550px;
+            left: 40px;
+            width: 200px;
+            height: 200px;
+            background-color: olivedrab;
+            z-index: -1;
+        }
+
+        .kotak {
+            position: fixed;
+            background-color: black;
+            top: 100px;
+            bottom: 100px;
+            left: 100px;
+            right: 100px;
+            opacity: 0.7;
+            /* properti css3 */
+        }
+
+        .close {
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top: 80px;
+            right: 80px;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="kotak"></div>
+    <div class="close"></div>
+
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+
+    <h1>Hello World</h1>
+
+    <h2>Selamat Datang di Website</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae distinctio assumenda deleniti tempora dolore
+        tempore quam non earum illo, a veniam vel magni consequuntur. Non ut tempore molestiae excepturi unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem vel nemo labore nam, suscipit repellendus mollitia
+        iste ut dolorum placeat vero assumenda dolor nisi voluptatem alias? Illum, harum facilis est deleniti deserunt
+        atque assumenda animi.</p>
+
+</body>
+
+</html>
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

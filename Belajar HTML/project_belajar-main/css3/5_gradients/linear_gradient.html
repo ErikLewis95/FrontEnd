@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient</title>
+    <style>
+        /* belajar mengenai linear-gradient */
+        div {
+            margin: 50px auto;
+            width: 1000px;
+            height: 1000px;
+        }
+
+        .kotak1 {
+            width: 200px;
+            height: 200px;
+            background-image: linear-gradient(to right, whitesmoke 3%, darkgrey 32%, darkslateblue 68%, indigo 95%);
+        }
+
+        .kotak2 {
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+        }
+
+        .kotak2:hover {
+            background-image: linear-gradient(to right, rgb(160, 82, 45) 45%, brown, maroon)
+        }
+
+        .kotak3 {
+            width: 500px;
+            height: 500px;
+            background-color: thistle;
+        }
+
+        .kotak3:hover {
+            border-radius: 250px 0 250px 0;
+            background-image: linear-gradient(to right top, red 15%, orange 30%, yellow 45%, green 60%, blue 75%, indigo 90%, purple 100%);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    <div class="kotak3"></div>
+
+</body>
+
+</html>
+
+<!-- Source : Web Programming Unpas CSS3 -->

@@ -1,0 +1,28 @@
+
+-> memberikan gradasi warna secara melingkar.
+- bukan properti CSS3, melainkan value untuk background-image
+sintaks sederhana {
+    background-image: radial-gradient(<warna awal>, <warna akhir>);
+    // multiple color
+    background-image: radial-gradient(<warna-1>, <warna-2>, ... , <warna-n>);
+}
+
+sintaks lengkap {
+    radial-gradient(
+        <tipe> <jangkauan> at <posisi-y> <posisi-x>,
+        <warna-1>,
+        <warna-2>,
+        ...,
+        <warna-n>
+    )
+    - <tipe> ; ellipse(value default-nya), circle
+    - <jangkauan> (jarak dari pusat gradient ke sisi terluar-nya) {
+        - closest-corner (jarak dari pusat gradient ke sudut terdekat elemen)
+        - closest-side (jarak dari pusat gradient ke sisi terdekat elemen)
+        - farthest-corner (jarak dari pusat gradient ke sudut terjauh elemen)
+        - farthest-side (jarak dari pusat gradient ke sisi terjauh elemen)
+    }
+    - <posisi> <y>(top, center, bottom | px) <x>(left, center, right | px)
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

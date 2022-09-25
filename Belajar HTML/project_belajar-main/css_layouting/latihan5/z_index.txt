@@ -1,0 +1,8 @@
+
+-> digunakan untuk mengatur tumpukan dari elemen ketika elemen-nya non-static.
+nilai tertinggi z-index {
+    z-index: 9999;
+    // nilai terkecil nya -9999
+}
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+    <style>
+        td {
+            align: right;
+            align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- 
+        Elemen Form
+        input
+        textarea
+        select
+        button
+        label
+    -->
+
+    <!--
+        <input type="">
+        text
+        password
+        radio
+        checkbox
+        !submit! (tidak disarankan untuk membuat button menggunakan tag input)
+        !reset!
+        !button!
+
+        <button type="">
+        submit
+        reset
+        button
+    -->
+
+    <form>
+        <label for="username">Username : </label>
+        <input type="text" id="username">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" id="password">
+        <br>
+        <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+        <input type="radio" id="netral" name="jeniskelamin"><label for="netral">Netral</label>
+        <br>
+        <input type="checkbox" id="1"><label for="1">1</label>
+        <input type="checkbox" id="2"><label for="2">2</label>
+        <input type="checkbox" id="3"><label for="3">3</label>
+        <br>
+        <select>
+            <option>Indonesia</option>
+            <option>Jepang</option>
+            <option>Inggris</option>
+        </select>
+        <br>
+        <textarea maxlength="300">Max : 300</textarea>
+        <br>
+        <!-- <input type="submit" value="Daftar"> (tidak disarankan) -->
+        <button type="submit">Daftar</button>
+    </form>
+
+    <hr>
+
+    <form>
+        <table border="0" cellspacing="0" cellpadding="5">
+            <tr>
+                <td align="right"><label for="text">Text :</label></td>
+                <td><input type="text" id="text"></td>
+            </tr>
+            <tr>
+                <td align="right"><label for="password_table">Password :</label></td>
+                <td><input type="password" id="password_table"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" name="radio" id="radio1"><label for="radio1">Radio1</label>
+                    <input type="radio" name="radio" id="radio2"><label for="radio2">Radio2</label>
+                    <input type="radio" name="radio" id="radio3"><label for="radio3">Radio3</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="checkbox" id="checkbox1"><label for="checkbox1">Checkbox1</label>
+                    <input type="checkbox" id="checkbox2"><label for="checkbox2">Checkbox2</label>
+                    <input type="checkbox" id="checkbox3"><label for="checkbox3">Checkbox3</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="combobox">Combo Box :</label></td>
+                <td>
+                    <select id="combobox">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><label for="textarea">Textarea :</label></td>
+                <td><textarea id="textarea"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">Button</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
+
+<!-- Source : Web Programming Unpas HTML Dasar -->

@@ -1,0 +1,44 @@
+/* belajar mengenai padding, border, box sizing css */
+body {
+    font-family: Arial;
+}
+
+div {
+    width: 500px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.satu {
+    background-color: pink;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+.dua {
+    background-color: violet;
+    padding: 40px;
+    border: 10px double pink;
+}
+
+.tiga {
+    background-color: palevioletred;
+    padding: 20px;
+    border-left: 10px dotted black;
+    border-top: 10px dotted black;
+    overflow: auto;
+    height: 200px;
+    text-indent: 25px;
+}
+
+.lorem {
+    color: mediumvioletred;
+    font-weight: bold;
+}
+
+.eaque {
+    font-weight: bold;
+    background: linear-gradient(to right, black 0%, mediumvioletred 65%, black 95%);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

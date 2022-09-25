@@ -1,0 +1,16 @@
+
+-> properti css3 yang digunakan untuk memberikan efek visual pada gambar, background, border.
+filter : <tipe-filter>; {
+    blur (px)
+    brightness (angka / %)
+    contrast (angka / %)
+    saturate (angka / %)
+    grayscale (angka / %)        
+    sepia (angka / %)        
+    hue-rotate (adeg)        
+    invert (angka / %)        
+    opacity (angka / %)        
+    drop-shadow (sama seperti box-shadow)
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

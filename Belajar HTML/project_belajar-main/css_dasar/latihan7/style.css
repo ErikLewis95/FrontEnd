@@ -1,0 +1,8 @@
+/* belajar mengenai inheritance css */
+
+body {
+    font-family: arial;
+    color: darkgoldenrod;
+}
+
+a {color: inherit;}

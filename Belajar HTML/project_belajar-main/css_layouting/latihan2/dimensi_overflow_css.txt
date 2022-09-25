@@ -1,0 +1,20 @@
+
+dimensi {
+    weight: ;
+    height: ;
+}
+
+~ satuan weight & height {
+    px (nilai nya absolut)
+    % (persen) (nilai nya relatif)
+    in, cm, mm, pt, pc (satuan yang diambil dari ukuran di dunia nyata)
+}
+
+overflow {
+    visible [value default-nya] (jika ada konten yang keluar dari parent-nya maka dia akan diperlihatkan)
+    auto (CSS secara otomatis akan menambahkan scroll ketika konten nya tidak cukup lagi)
+    hidden (konten nya disembunyikan)
+    scroll (mirip seperti auto tetapi jika konten nya cukup scroll nya akan tetap ada)
+}
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

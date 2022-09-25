@@ -1,0 +1,17 @@
+/* belajar mengenai font styling css */
+h1 {
+    font-family: arial, verdana, sans-serif;
+    /* pertama system akan mencari value/font arial jika tidak ada system mencari ke sebelahnya verdana jika tidak ada mencari ke generic fontnya sans-serif */
+    font-size: 100px;
+    font-weight: 200;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+p {
+    font-family: geogia, serif;
+    line-height: 25px;
+}
+
+/* CSS font shorthand */
+#shorthand { font: italic normal bold 20px fantasy; }

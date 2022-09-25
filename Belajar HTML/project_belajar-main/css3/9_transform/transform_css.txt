@@ -1,0 +1,10 @@
+
+-> properti transform memungkinkan kita dapat memanipulasi format visual dari elemen HTML.
+fungsi transformasi {
+    - scale(angka), scaleX(angka), scaleY(angka), (memperbesar / memperkecil) 
+    - rotate(deg), rotateX(deg), rotateY(deg), (memutar)
+    - skew(deg), skewX(deg), skewY(deg), (membuat condong/miring)
+    - translate(px), translateX(px), translateY(px), (mengubah posisi)
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

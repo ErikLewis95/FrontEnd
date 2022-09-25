@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius CSS3</title>
+    <style>
+        /* belajar mengenai border radius css3 */
+        div {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+        }
+        div img {
+            width: 300px;
+        }
+
+        .satu {
+            border-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        .dua {
+            margin-top: 30px;
+            /* background-image: url(css3.png);
+            background-repeat: no-repeat;
+            background-size: cover; */
+            border-radius: 0 50% 0 50%;
+            overflow: hidden;
+        }
+
+        .latihan {
+            float: left;
+            width: 900px;
+            border: 4px dotted black;
+            margin: 50px auto;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .kotaksatu {
+            float: left;
+            margin: 0 15px auto;
+            width: 100px;
+            height: 100px;
+            border: 5px solid grey;
+            border-radius: 10px;           
+        }
+
+        .kotakdua {
+            float: left;
+            margin: 10px 15px auto;
+            width: 100px;
+            height: 100px;
+            border: 5px solid red;
+            border-radius: 30% 0 30% 0;
+        }
+
+        .circle {
+            float: left;
+            margin: 10px 15px auto;
+            width: 100px;
+            height: 100px;
+            border: 5px solid green;
+            border-radius: 50%;
+        }
+
+        .top-half-circle {
+            float: left;
+            margin: 10px 15px auto;
+            width: 100px;
+            height: 50px;
+            border: 5px solid blue;
+            border-radius: 100px 100px 0 0;
+        }
+
+        .bottom-half-circle {
+            float: left;
+            margin: 10px 15px auto;
+            width: 100px;
+            height: 50px;
+            border: 5px solid blue;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .capsule {
+            float: left;
+            margin: 10px 15px auto;
+            width: 100px;
+            height: 100px;
+            border: 5px solid orange;
+            border-radius: 10px 65px 65px 10px;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <div class="satu">Hello World</div>
+    <div class="dua">
+        <img src="css3.png" alt="css3">
+    </div>
+
+    <!-- latihan border radius -->
+    <div class="latihan">
+            <div class="kotaksatu"></div>
+            <div class="kotakdua"></div>
+            <div class="circle"></div>
+            <div class="top-half-circle"></div>
+            <div class="bottom-half-circle"></div>
+            <div class="capsule"></div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Source : Web Programming Unpas CSS3 -->

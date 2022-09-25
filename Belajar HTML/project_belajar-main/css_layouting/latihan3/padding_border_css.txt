@@ -1,0 +1,19 @@
+
+- padding tidak bisa dikasih nilai negatif
+- padding tidak memiliki nilai auto
+- padding mempengaruhi ukuran dari box/elemen yang kalian buat
+
+border: witdh style color;
+border: 3px solid black;
+- border juga mempengaruhi ukuran dari box/elemen nya
+
+~ total dimensi = witdh/height + padding + border
+
+- style border {
+    solid
+    dotted
+    dashed
+    double
+}
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

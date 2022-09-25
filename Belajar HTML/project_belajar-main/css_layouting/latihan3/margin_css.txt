@@ -1,0 +1,54 @@
+
+- overlapping margin [
+    .satu {
+        margin-bottom: 100px;
+    }
+
+    .dua {
+        margin-top: 50px;
+    }
+    // margin tidak akan berubah karena margin tidak saling menambahkan (khusus yang vertikal), margin yang akan diambil margin yang lebih besar
+
+    .satu {
+        margin-right: 100px;
+    }
+
+    .dua {
+        margin-left: 50px;
+    }
+    // (khusus yang horizontal) jarak margin nya bertambah
+]
+
+- negatif margin (akan membuat kotak nya bergerak berlawanan arah) [
+    .satu {
+        margin-bottom: 20px;
+    }
+
+    .dua {
+        margin-top: -50px;
+    }
+    // kotak nya akan bergerak ke atas atau berlawan arah
+]
+
+- margin auto (akan membuat elemen nya berada di tengah-tengah parent-nya) [
+    .tiga {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .empat {
+        margin-right: auto;
+        margin-left: auto;
+    }
+]
+
+- shorthand margin (menyingkat penulisan margin) [
+    .lima {
+        margin: 50px; (ke empat sisi memiliki margin 50px)
+        margin: 50px 100px; (value pertama (50px) untuk atas dan bawah, value kedua (100px) untuk kanan dan kiri)
+        margin: 30px auto 50px; (value pertama selalu dimulai dari atas(30px), value kedua (auto) kiri-kanan, value ketiga (50px) bawah)
+        margin: 10px 20px 30px 40px; (bacanya searah jarum jam dan selalu dimulai dari atas jadi atas-kanan-bawah-kiri)
+    }
+]
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

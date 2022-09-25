@@ -1,0 +1,50 @@
+/* belajar mengenai pseudo class css */
+body {
+    font-family: arial;
+}
+
+.hello {
+    font-family: cursive;
+}
+
+.hello:link {
+    color: blue;
+}
+
+.hello:hover {
+    color: blue;
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: darkcyan;
+}
+
+li:nth-child(odd) a {
+    color: olive;
+}
+
+li:nth-child(odd) a:hover {
+    color: rgb(230, 120, 10);
+}
+
+li:nth-child(even) a {
+    color: rgb(230, 120, 10);
+}
+
+li:nth-child(even) a:hover {
+    color: olive;
+}
+
+p:first-of-type {
+    color: palevioletred;
+}
+
+p:last-of-type {
+    color: pink;
+}

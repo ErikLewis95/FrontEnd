@@ -1,0 +1,10 @@
+
+text shadow {
+    <x-offset> <y-offset> <blur> <color>
+} {
+    - <x-offset> (untuk mengatur jarak bayangan pada sumbu x/horizontal) (nilai-nya numerik)
+    - <y-offset> (untuk mengatur jarak bayangan pada vertical)
+}
+
+
+<!-- Source : Web Programming Unpas CSS3 -->

@@ -1,0 +1,27 @@
+
+~ pseudo-class yang berhubungan dengan link
+
+:link (style default pada sebuah link (a yang memiliki href))
+
+:hover (style ketika kursor mouse berada diatas sebuah link / elemen)
+
+:active (style ketika sebuah link di-klik (keadaan aktif))
+
+:visited (style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama))
+
+~ pseudo-class yang berhubungan dengan posisi elemen (1)
+
+:first-child (memilih elemen pertama dari sebuah parent(elemen pembungkusnya))
+
+:last-child (memilih elemen terakhir dari sebuah parent(elemen pembungkusnya))
+
+:nth-child(n) (memilih elemen ke-n dari sebuah parent(elemen pembungkusnya)).
+    n bisa berarti urutan (1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil dan genap (even) & (odd)
+
+~ pseudo-class yang berhubungan dengan posisi elemen (2)
+
+:first-of-type (memilih elemen pertama dari sebuah jenis / tiap tag)
+
+:last-of-type (memilih elemen terakhir dari sebuah jenis / tiap tag)
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

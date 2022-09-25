@@ -1,0 +1,36 @@
+
+position {
+     static (nilai default-nya)
+     relative
+     absolute
+     fixed
+}
+
+CSS position {
+    - static merupakan nilai default dari tiap-tiap elemen ketika tidak diberi porperti position
+    - menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+    - elemen yang diberi position selain static dapat menggunakan properti top, right, bottom dan left untuk mengatur posisinya
+}
+
+relative {
+    - ketika kita menggerakkan elemen dengan posisi relative (menggunakan properti top, left, bottom, dan right),
+      ruang yang ditempati oleh elemen tersebut masih ada
+    - ketika kita menggerakkan elemen dengan posisi relative, elemen akan bergerak relative terhadap posisi semula-nya
+    - jika kita memberi properti top: 0; dan left: 0; maka elemen tidak berubah posisinya
+}
+
+absolute {
+    - ketika kita menggerakkan elemen dengan posisi absolute (menggunakan properti top, left, bottom, dan right),
+      ruang yang ditempati oleh elemen tersebut dianggap tidak ada
+    - ketika kita menggerakkan elemen dengan posisi absolute, elemen akan bergerak relative terhadap posisi dari elemen parent-nya,
+      selama elemen parent-nya memiliki posisi yang non-static juga
+    - jika kita memberi properti top: 0; dan left: 0; maka elemen akan berada di ujung kiri atas dari elemen parent-nya 
+}
+
+fixed (perilaku-nya mirip seperti absolute) {
+    - ketika kita menggerakkan elemen tersebut (menggunakan properti top, left, bottom, dan right),
+      maka dia selalu bergerak relative terhadap window browser (jadi dia tidak akan mempedulikan parent-nya meskipun parent-nya non-static)
+    - ketika kita scroll halaman-nya, elemen tersebut akan terkunci di posisi-nya
+}
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

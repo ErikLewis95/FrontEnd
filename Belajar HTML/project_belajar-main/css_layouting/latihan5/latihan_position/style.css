@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+    */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* belajar membuat website sederhana (menggunakan box model dan float dan position) */
+
+/* style */
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #ff854d;
+    color: #333;
+    /* background-image: url(img/orange-texture.jpg) */
+}
+
+.top-bar {
+    position: fixed;
+    background-color: #ffaa99;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border-bottom: 3px solid #333;
+    z-index: 9999;
+}
+
+.container {
+    width: 960px;
+    margin: 100px auto;
+    background-color: #ffaa99;
+    position: relative;
+}
+
+.instagram {
+    background-image: url(img/instagram.png);
+    width: 69px;
+    height: 96px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    display: inline-block;
+    top: -1px;
+    right: -1px;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 4px double black;
+}
+
+.header .judul {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header .judul a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header .judul a:hover {
+    letter-spacing: 8px;
+    background: linear-gradient(to right, #e64900 15%, #ff854d 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffdccc;
+    padding: 4px;
+}
+
+.header ul li a:hover {
+    background-color: #e64900;
+    color: white;
+}
+
+.hero {
+    height: 360px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -45px;
+    border-top: 5px solid #ff854d;
+    border-bottom: 5px solid #ff854d;
+}
+
+.content {
+    border: 4px double black;
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 14px;
+    margin-top: -4px;
+}
+
+.main .penulis a {
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+    color: #e64900;
+    font-style: italic;
+}
+
+.main .penulis a:hover {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: inherit;
+}
+
+.sidebar img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+.sidebar p {
+    font: 16px/20px arial;
+}
+
+.footer {
+    background-color: #ff854d;
+    padding: 10px;
+    border: 4px double black;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer .copyright a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

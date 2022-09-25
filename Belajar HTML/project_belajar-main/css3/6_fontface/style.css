@@ -1,0 +1,39 @@
+/* belajar mengenai font face css3 */
+@import 'https://fonts.googleapis.com/css?family=Paytone+One';
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+
+@font-face {
+    font-family: "KaushanScript";
+    src: url(font/KaushanScript-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('font/pacifico-regular-webfont.woff2') format('woff2'),
+        url('font/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 50px auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Paytone one"
+}
+
+h2 {
+    font-family: "Indie Flower";
+}
+
+h3 {
+    font-family: "pacificoregular";
+}
+
+p {
+    font-family: "KaushanScript", arial;
+}

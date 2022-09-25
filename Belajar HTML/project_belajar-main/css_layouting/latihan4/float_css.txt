@@ -1,0 +1,62 @@
+
+~ Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di sebelah kiri atau kanan
+  dari parent/pembungkusnya dengan menggunakan properti ini.
+
+float {
+    none (nilai default-nya)
+    left
+    right
+}
+
+~ yang bisa dilakukan menggunakan properti float {
+    - text wrapping (membuat teks mengelilingi gambar/elemen)
+
+    - image gallery (membuat serangkaian gambar menjadi galeri)
+
+    - multi-column layout (membuat halama memiliki beberapa kolom)
+    dll
+}
+
+~ cara menghentikan / membersihkan float {
+    - menggunakan properti overflow
+    - menggunakan <div> kosong
+    - menggunakan teknik micro clearfix
+}
+
+clear (berfungsi menghentikan/ membersihkan float)
+{
+    left
+    right
+    both
+}
+
+~ micro clearfix hack - Nicolas Gallagher {
+    /**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+    }
+
+<!-- Source : Web Programming Unpas CSS Layouting -->

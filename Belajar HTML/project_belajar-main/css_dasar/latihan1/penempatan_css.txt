@@ -1,0 +1,11 @@
+
+- embed (menyimpan css di dalam html bagian head)
+<style></style>
+
+- inline
+<p style="color: lightblue;"> ... </p>
+
+- external (file css terpisah dengan html)
+<link rel="stylesheet" href="style.css"> (tag untuk menghubungkan css pada html)
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

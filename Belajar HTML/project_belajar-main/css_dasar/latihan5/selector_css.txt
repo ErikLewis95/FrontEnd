@@ -1,0 +1,10 @@
+
+selectors (selector pada css sebaiknya jika masih bisa gunakan elemen HTML, jika sudah complex gunakan class tidak disarankan menggunakan id karena beban id lebih besar dari class dan elemen HTML.
+            Jika elemen HTML nilainya 1 maka class nilai nya 10 dan id nilai nya 100)
+
+elemen HTML
+id
+class
+complex selector
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

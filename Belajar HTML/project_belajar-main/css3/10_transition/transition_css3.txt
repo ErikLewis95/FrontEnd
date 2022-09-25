@@ -1,0 +1,49 @@
+
+-> properti transition memungkinkan kita dapat mengubah nilai dari property HTML secara halus.
+transition: [properti] <durasi> [fungsi] [delay];
+    ~ durasi {
+    s, ms
+}
+    ~ properti {
+    all,
+    none,
+    <nama property>
+}
+
+- animatable properties {
+    background-color
+    background-position
+    background-size
+    border
+    color
+    filter
+    font-size
+    line-height
+    top left bottom right
+    margin, padding
+    width, height
+    opacity
+    transform
+    word-spacing
+    letter-spacing
+}
+- non-animatable properties {
+    font-family
+    display
+    position
+    ...
+}
+
+    ~ fungsi transisi / timing function {
+        ease
+        ease-in
+        ease-out
+        ease-in-out
+        linear
+        cube-bezier(w,x,y,z)
+    }
+    ~ delay {
+        s, ms
+    }
+
+<!-- Source : Web Programming Unpas CSS3 -->

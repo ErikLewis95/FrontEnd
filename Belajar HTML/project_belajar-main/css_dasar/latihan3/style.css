@@ -1,0 +1,23 @@
+/* belajar mengenai text styling css */
+h1 {
+    font-size: 100px;
+    color: rgb(10,200,300);
+    text-align: center;
+    text-decoration: underline overline line-through;
+    letter-spacing: 25px;
+}
+
+p {
+    font-size: 20px;
+    font-family: impact;
+    text-align: justify;
+    text-indent: 50px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
+
+a {
+    font-family: fantasy;
+    text-decoration: none;
+    text-transform: uppercase;
+}

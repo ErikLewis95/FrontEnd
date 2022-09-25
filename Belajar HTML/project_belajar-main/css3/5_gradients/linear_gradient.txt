@@ -1,0 +1,16 @@
+
+-> memberikan gradasi warna secara garis lurus.
+- bukan properti CSS3, melainkan value untuk background-image
+sintaks sederhana {
+    background-image: linear-gradient(<warna awal>, <warna akhir>);
+    // multiple color
+    background-image: linear-gradient(<warna-1>, <warna-2>, ... , <warna-n>);
+}
+
+sintaks lengkap {
+    background: linear-gradient(<sudut> | <arah>, <warna awal>, <warna akhir>);
+    - <arah> ; 45deg,-45deg
+    - <sudut> ; to bottom, to top, to left, to right | to left top, to left bottom, to right top, to right bottom
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

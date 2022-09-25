@@ -1,0 +1,11 @@
+
+box-shadow {
+    /<inset>/ <x-offset> <y-offset> <blur> /<spread>/ <color>
+} {
+    - <x-offset> (untuk mengatur jarak bayangan pada sumbu x/horizontal) (nilai-nya numerik)
+    - <y-offset> (untuk mengatur jarak bayangan pada vertical)
+    - spread = size shadow
+    - inset (bayangan akan berada di dalam elemen-nya)
+}
+
+<!-- Source : Web Programming Unpas CSS3 -->

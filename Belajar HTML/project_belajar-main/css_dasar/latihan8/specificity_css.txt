@@ -1,0 +1,7 @@
+
+    -> setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+    - menghitung specificity
+       { 0,0,0,0 }
+    inline id class elemen
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

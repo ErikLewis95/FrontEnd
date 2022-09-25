@@ -1,0 +1,21 @@
+
+color (memberi warna pada tulisan)
+{
+    nama warna (red, lightseagreen, royalblue, ...)
+    hexadecimal (#ff0000, #20b2aa, #4169e1, ...)
+    rgb [rgb(255,0,0), rgb(32,178,170), rgb(65,105,225), ...]
+}
+
+text-align (mengatur format paragraf / teks)
+
+text-indent (memberi indentasi pada paragraf / teks)
+
+text-decoration (mengatur dekorasi pada teks seperti underline)
+
+text-transform (mengubah jenis huruf menjadi huruf besar, kecil / kapital)
+
+letter-spacing (mengatur spasi antar huruf)
+
+word-spacing (mengatur spasi antar kata)
+
+<!-- Source : Web Programming Unpas CSS Dasar -->

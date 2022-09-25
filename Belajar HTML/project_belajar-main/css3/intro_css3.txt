@@ -1,0 +1,44 @@
+
+-> Generasi ke-3 dari spesifikasi CSS yang direkomendasikan oleh W3C.
+- CSS3 dibagi menjadi beberapa modul, dan tiap-tiap modul-nya menambahkan kemampuan/fitur yang ada di CSS2
+
+~ Kenapa menggunakan CSS3? {
+    - membuat website menjadi lebih fleksibel
+    - membuat mock-up dengan cepat tanpa bantuan bahasa scripting
+    - mengurangi penggunaan gambar = membuat website lebih cepat load halaman
+    - penggunaan selector untuk menghindari penggunaan markup yang boros
+}
+
+~ properti CSS3 (yang sering digunakan) {
+    border-radius
+    opacity
+    RGBa & HSLa
+    box-sizing
+    box-shadow
+    text-shadow
+    CSS gradient
+    background
+    pseudo-element
+    selector lanjut
+    web font
+    media queries
+    transform (2D & 3D)
+    CSS transition
+    CSS animation
+    CSS filter
+    FlexBox
+    CSS columns
+}
+
+~ ada beberapa properti yang hanya berjalan di browser tententu.
+
+vendor-prefixes {
+    -webkit-
+    -moz-
+    -ie-
+    -o-
+} (karena tiap browser memiliki karakteristik yang berbeda)
+
+~ tujuan: menulis syntax css yang 'berjalan' hampir di semua browser
+
+<!-- Source : Web Programming Unpas CSS3 -->

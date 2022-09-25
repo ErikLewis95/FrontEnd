@@ -1,0 +1,53 @@
+/* belajar mengenai position css */
+body {
+    height: 2000px;
+}
+
+div {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    width: 600px;
+    height: 1050px;
+    border: 5px dashed darkred;
+    position: relative;
+}
+
+.satu {
+    background-color: red;
+}
+
+.dua {
+    background-color: yellow;
+    position: relative;
+    top: -250px;
+    left: 55px;
+}
+
+.tiga {
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* right: 15px; */
+}
+
+.empat {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lima {
+    background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
