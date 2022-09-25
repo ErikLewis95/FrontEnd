@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purwadhika</title>
+</head>
+<style>
+    /*body{
+        text-align: center;
+       }   */
+    p{
+        font-family: Arial;
+        font-size: 20px;
+        /*text-align: center;*/
+        /*font-weight: bold; */
+    }
+
+    .h{
+        padding: 10px 10px;
+/* text-align: center; */  
+/* font-size: 40; */  
+     }
+
+     hr {
+        border: 4px double black;
+     }
+     .new{
+        margin: auto;
+        width:800px;
+        background-color: rgb(1, 2, 3, .3) ;
+        text-align: center;
+     }
+</style>
+
+<body>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <p>My cat is very grumpy</p>
+    <hr>
+     <h1>Paragraph, Break, & Comment tag</h1>
+     <p>P1</p>
+    <p>P2</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br> Dolores, doloremque fugit voluptatibus voluptas aut facere, dolor impedit sapiente repellendus repellat voluptatem vel! Velit a tenetur voluptatem nam corrupti, vero id.</p>
+    <!--ini komentar-->
+    <hr>
+    <div class="new"></div>
+    <h1>HTML Teks Formatting</h1>
+    <b>ini bold</b><br/>
+    <strong>ini strong</strong><br/><!--untuk menunjukkan bahwa dia penting-->
+    <i>Ini italic</i><br/>
+    <em>Ini emphasized</em><br/>
+    <mark>Ini marked</mark><br/>
+    <small>ini small</small><br/>
+    <del>Ini deleted</del><br/>
+    <ins>Ini inserted</ins><br/>
+    <sub>Ini subscript</sub>
+    <sup>Ini Superscript</sup><br></div>
+    <hr>
+    <h1>Unordered List Tag</h1>
+    <h1>Daftar Belanja:</h1>
+    <ul type="square"><!--UL ununder list-->
+        <li>Beras</li>
+        <li>Minyak Goreng</li>
+        <li>Gula</li>
+        <li>Santan</li>
+    </ul>
+    <ol type="I"><!--Ol Orderd List-->
+        <li>Beras</li>
+        <li>Minyak Goreng</li>
+        <li>Gula</li>
+        <li>Santan</li>
+    </ol>
+    <hr>
+<h1>HTML Table</h1>
+    <table border="1.1" cellspacing="0" cellpadding="5">
+        <tr><!--Table Row-->
+            <th>No</th>
+            <th>Nama</th>
+            <th>TTL</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Galih</td>
+            <td>Jakarta, 25 January 1990</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Erik Lewis</td><!--untuk kolum-->
+            <td>Sibolga, 26 January 1995</td>
+        </tr>
+    </table> 
+    <br>
+<h1>Collspan</h1>
+<table border="1.1">
+    <tr><!--Table Row-->
+        <th>Nama</th>
+        <th>TTL</th>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <center>Galih</center>
+        </td>
+    </tr>
+</table> 
+<hr/>
+<h1>rowspan</h1>
+<table border="1.1">
+<tr>
+    <th rowspan="2">Jakarta</th>
+    <td>A</td>
+    <td>B</td>
+</tr>
+<tr>
+<td>C</td>
+<td>D</td>
+</tr>
+</table>
+<hr>
+
+<p>testing</p>
+<table border="1" cellspacing="0" cellpadding="5">
+    <tr>
+        <!-- <td rowspan="3">rowspan</td> -->
+        <!-- <td colspan="2">colspan</td> -->
+        <td>baris 1, kolom 1</td>
+        <td>baris 1, kolom 2</td>
+        <td>baris 1, kolom 3</td>
+    </tr>
+    <tr>
+        <td>baris 2, kolom 1</td>
+        <td>baris 2, kolom 2</td>
+        <td>baris 2, kolom 3</td>
+    </tr>
+    <tr>
+        <td>baris 3, kolom 1</td>
+        <td>baris 3, kolom 2</td>
+        <td>baris 3, kolom 3</td>
+    </tr>
+</table>
+<hr>
+
+<h1>Anchor Tags</h1>
+<!--absolute link-->
+<p>
+    <a href="https://www.google.com">Google</a>
+    <a href="./file1.html">Pindah ke file satu lagi</a>
+</p>
+<!--relative links-->
+<p> <a href="https://www.Yahoo.com" targer="_blank">Yahoo</a>
+</p>
+<hr>
+<h1>Images Tag</h1>
+<center>
+<img width="200" height="200" src="./OIP.jpg" alt="Gambar pemandangan"/>
+<img src="https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt="ini dari internet">
+    </center>
+    <hr/>
+<h1>Figure & Caption Tag</h1>
+<figure>
+    <center>
+    <figcaption>Ini pemandangan</figcaption>
+    <img width="200" heigh="200" src="./OIP.jpg" >
+</center>
+</figure>
+<hr>
+<h1>Forms HTML</h1>
+<form action="" method ="post">
+    <!--Input &label tags-->
+    <p>Input Your Password</p>
+    <label for="username">Username:</label>
+    <input type="text"/>
+    <label for="password">Password:</label>
+    <input type="password" id="password"/>
+    <input type="checkbox" id="1"><label for="test"></label>
+    <input type="radio" id="test"><label for="test"></label>
+    <input type="number"id="num" min="1" max="10"><label for="num">Input your number</label>
+    <input type="submit" value="submit"/>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</form>
+<hr>
+<!--button tags-->
+<button type="button">OK</button>
+<button Type="button" onclick="doSomething();">Apply</button>
+</hr/>
+
+<!--select form-->
+<p>Apa warna favoritmu?</p>
+<select>
+    <option value="">Red</option>
+    <option value="">Green</option>
+    <option value="">Blue</option>
+</select>
+<p>Apa makanan kesukaanmu?</p>
+<select>
+    <option value="">Chicken</option>
+    <option value="" selected>Select...</option>
+    <option value="">Sate</option>
+</select>
+<hr/>
+<p>
+    <label for="user">Username</label>
+    <input type="text" name="user"/>
+</p>
+<p>
+    <label for="pass">Password</label>
+    <input type="password" name="pass"/>
+</p>
+<hr/>
+<!--fieldset & legend tag-->
+<fieldset>
+    <legend>Data Diri</legend>
+    <p>
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama"/>
+    </p>
+    <p>
+        <label for="usia">Usia:</label>
+        <input type="number" name="usia"/>
+    </p>
+</fieldset>
+</form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
